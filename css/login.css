@@ -1,0 +1,5 @@
+body { background: linear-gradient(135deg, #82d9ce, #c9e3ff) !important; }
+.login-container { border: 1px solid #77acd9; border-radius: 20px; background: #eef8ff; box-shadow: 0 14px 30px rgba(35, 91, 130, .2); }
+.login-container h2 { color: #2878c8; }
+.login-btn { background-color: #2878c8; border-radius: 12px; }
+.login-btn:hover { background-color: #1f5f9f; }

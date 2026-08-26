@@ -1,0 +1,8 @@
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: linear-gradient(135deg, #82d9ce, #ffc47f); }
+.welcome { width: min(100%, 650px); padding: 52px 36px; text-align: center; background: #fff0d2; border: 1px solid #e7a95e; border-radius: 22px; box-shadow: 0 14px 30px rgba(111, 72, 30, .2); }
+h1 { margin: 0 0 24px; color: #176f74; font-size: 52px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; text-shadow: 2px 3px 0 #a7ddd4; }
+a { display: inline-block; padding: 12px 22px; border-radius: 14px; background: #d67d24; color: white; font-weight: bold; text-decoration: none; }
+a:hover { background: #ad6018; }
+
+@media (max-width: 600px) { h1 { font-size: 36px; } }

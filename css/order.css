@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(135deg, #c9e8ff 0%, #ffe0c2 100%);
+}
+
+.card {
+    background: rgba(246, 251, 255, 0.96);
+    border: 1px solid #8bbfe8;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(43, 94, 134, 0.18);
+}
+
+.card input {
+    background: #edf8ff;
+    border-color: #9bcbed;
+    border-radius: 9px;
+}

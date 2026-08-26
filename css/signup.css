@@ -1,0 +1,8 @@
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { margin: 0; min-height: 100vh; padding: 30px 20px; background: linear-gradient(135deg, #c9f2d0, #fff0b8); color: #294331; }
+h1 { max-width: 620px; margin: 0 auto 20px; color: #287a4b; text-align: center; }
+form { width: min(100%, 620px); margin: auto; padding: 30px; background: #effbea; border: 1px solid #98d19f; border-radius: 20px; box-shadow: 0 14px 30px rgba(54, 111, 65, .18); }
+input, select { padding: 10px; border: 1px solid #8fc697; border-radius: 10px; background: #fbfff7; }
+input[type="text"], input[type="email"], input[type="password"] { max-width: 100%; }
+input[type="submit"] { padding: 12px 24px; border: 0; border-radius: 12px; background: #287a4b; color: white; font-weight: bold; cursor: pointer; }
+input[type="submit"]:hover { background: #1d5e39; }

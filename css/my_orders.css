@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(135deg, #c9f2d0 0%, #fff0b8 100%);
+}
+
+.container {
+    background: rgba(248, 255, 242, 0.96);
+    border: 1px solid #9bd39c;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(54, 111, 65, 0.16);
+}
+
+table {
+    background: #f3fff0;
+    border-radius: 12px;
+    overflow: hidden;
+}

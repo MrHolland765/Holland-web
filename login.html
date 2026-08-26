@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Font Awesome Link kwa ajili ya Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #11b0b0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            width: 380px;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .login-container h2 {
+            color: #11b0b0;
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .input-group {
+            display: flex;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .input-icon {
+            background-color: #11b0b0;
+            color: white;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        .input-group input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 12px 15px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .forgot-password {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .forgot-password a {
+            color: #11b0b0;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+        .login-btn {
+            width: 100%;
+            background-color: #11b0b0;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .login-btn:hover {
+            background-color: #0e8f8f;
+        }
+
+        .signup-text {
+            margin-top: 25px;
+            font-size: 15px;
+            color: #666;
+        }
+
+        .signup-text a {
+            color: #11b0b0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .signup-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login Form</h2>
+        
+        <form action="login.php" method="post">
+            <div class="input-group">
+                <div class="input-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <input type="text" placeholder="Email, Username or Phone" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <div class="input-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <input type="password" placeholder="Password"name="password" required>
+            </div>
+
+            <div class="forgot-password">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+               <p> Not a member? <a href="signup.html">Signup now</a></p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
